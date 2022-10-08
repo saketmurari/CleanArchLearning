@@ -92,6 +92,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D5AC54D28F1A3EF00E1ABC8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5D88907C28EC575500EBB4CF /* ViewFactory.swift */,
+				5D8B625E28EB2F880090EF55 /* AppDelegate.swift */,
+				5D8B626428EB2F880090EF55 /* Main.storyboard */,
+				5D8B629128EB40020090EF55 /* RootCordinator.swift */,
+				5D8B629328EB41FF0090EF55 /* RootCordinatorImpl.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5D5AC54E28F1A41800E1ABC8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5D5AC55128F1A45F00E1ABC8 /* Secondary */,
+				5D5AC55028F1A45500E1ABC8 /* Detail */,
+				5D5AC54F28F1A44500E1ABC8 /* Home */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5D5AC54F28F1A44500E1ABC8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5D8B626228EB2F880090EF55 /* HomeViewController.swift */,
+				5D8B629728EB789A0090EF55 /* HomeCordinatorImpl.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5D5AC55028F1A45500E1ABC8 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				5D8B629528EB485E0090EF55 /* DetailViewController.swift */,
+				5D2571ED28EB81AC009CB0F9 /* DetailCordinatorImpl.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		5D5AC55128F1A45F00E1ABC8 /* Secondary */ = {
+			isa = PBXGroup;
+			children = (
+				5D2571EF28EB824C009CB0F9 /* SecondaryDetailController.swift */,
+				5D88907E28EC61CB00EBB4CF /* SeocndCordinatorImpl.swift */,
+			);
+			path = Secondary;
+			sourceTree = "<group>";
+		};
 		5D8B625228EB2F880090EF55 = {
 			isa = PBXGroup;
 			children = (
@@ -115,21 +164,12 @@
 		5D8B625D28EB2F880090EF55 /* CleanArchLearning */ = {
 			isa = PBXGroup;
 			children = (
-				5D8B625E28EB2F880090EF55 /* AppDelegate.swift */,
-				5D8B626428EB2F880090EF55 /* Main.storyboard */,
+				5D5AC54E28F1A41800E1ABC8 /* ViewControllers */,
+				5D5AC54D28F1A3EF00E1ABC8 /* Main */,
 				5D8B626A28EB2F8A0090EF55 /* Assets.xcassets */,
 				5D8B626C28EB2F8A0090EF55 /* LaunchScreen.storyboard */,
 				5D8B626F28EB2F8A0090EF55 /* Info.plist */,
 				5D8B626728EB2F880090EF55 /* CleanArchLearning.xcdatamodeld */,
-				5D8B629128EB40020090EF55 /* RootCordinator.swift */,
-				5D8B629328EB41FF0090EF55 /* RootCordinatorImpl.swift */,
-				5D8B629528EB485E0090EF55 /* DetailViewController.swift */,
-				5D2571ED28EB81AC009CB0F9 /* DetailCordinatorImpl.swift */,
-				5D8B626228EB2F880090EF55 /* HomeViewController.swift */,
-				5D8B629728EB789A0090EF55 /* HomeCordinatorImpl.swift */,
-				5D2571EF28EB824C009CB0F9 /* SecondaryDetailController.swift */,
-				5D88907E28EC61CB00EBB4CF /* SeocndCordinatorImpl.swift */,
-				5D88907C28EC575500EBB4CF /* ViewFactory.swift */,
 			);
 			path = CleanArchLearning;
 			sourceTree = "<group>";
