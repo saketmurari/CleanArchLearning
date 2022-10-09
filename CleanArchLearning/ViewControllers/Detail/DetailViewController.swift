@@ -47,3 +47,5 @@ class DetailViewContoller: UIViewController {
         print("Detail coordinate was released")
     }
 }
+
+
