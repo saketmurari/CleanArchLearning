@@ -22,7 +22,7 @@ class CleanArchLearningUITests: XCTestCase {
     func testExample() throws {
         
         let app = XCUIApplication()
-        let goStaticText = app/*@START_MENU_TOKEN@*/.staticTexts["Go"]/*[[".buttons[\"Go\"].staticTexts[\"Go\"]",".staticTexts[\"Go\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/
+        let goStaticText = app.staticTexts["Goa"]
         XCTAssert(goStaticText.exists)
         goStaticText.tap()
         let backStaticText = app/*@START_MENU_TOKEN@*/.staticTexts["Back"]/*[[".buttons[\"Back\"].staticTexts[\"Back\"]",".staticTexts[\"Back\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/
